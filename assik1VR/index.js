@@ -1,6 +1,6 @@
-// Student ID variant parameters (ID ending in 21)
-// Second-to-last digit 2: 2 mod 4 = 2 -> (ox, oy) = (+0.15, -0.15) [Bottom & Right faces visible]
-// Last digit 1: Assigned 3D Solid = Triangular Prism (24 vertices)
+// Student ID  parameters (ID ending in 21)
+// Second to last digit 2 so : 2 mod 4 = 2 -> (ox, oy) = (+0.15, -0.15) [Bottom & Right faces visible]
+// Last digit 1: assigned 3D Solid = Triangular Prism 
 const STUDENT_ID = "21"; 
 const OFFSET_X = 0.15;
 const OFFSET_Y = -0.15;
@@ -107,7 +107,7 @@ window.addEventListener("DOMContentLoaded", () => {
     } else {
       gl.disable(gl.DEPTH_TEST);
     }
-
+  
     // Clear Color and Depth Buffers
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
